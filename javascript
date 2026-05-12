@@ -29,3 +29,16 @@ const swiper1 = new Swiper('.mySwiper1', {
 
 
 });
+const swiper2 = new Swiper('.mySwiper2', {
+  slidesPerView: 2,
+  spaceBetween:5,
+  
+  loop:true,
+  
+  autoplay:{
+    delay:2000,
+    disableoninteraction:false,
+  },
+
+
+});
