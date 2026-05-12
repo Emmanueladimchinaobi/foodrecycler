@@ -1,0 +1,280 @@
+ <div class="flex  justify-center items-center w-full px-10  mb-10" style="justify-content:center;gap: 1.5rem;">
+      <div class="bg-white w-80 h-50 hover w-60% overflow-hidden rounded-sm" style="border: 3px solid red;">
+        <img src=""  class="img-fluid "
+            style="width: 100%; height: 500px; object-fit: cover" />
+      </div>
+      <div
+        class=" bg-white w-40 h-5 transform hover:-translate-x-3 hover:shadow-xl transition duration-300" style="border:3px solid black"
+      >
+        <img src="" class="img-fluid "
+            style="width: 500px; height: 500px; object-fit: cover" />
+      </div>
+    </div>
+
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex Images</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-6">
+
+  <div class="flex w-full gap-4">
+    <!-- Bigger Image -->
+    <div class="flex-2">
+      <img src="https://via.placeholder.com/800x500"
+           alt="Bigger"
+           class="w-full h-auto object-cover rounded-lg">
+    </div>
+
+    <!-- Smaller Image -->
+    <div class="flex-1">
+      <img src="https://via.placeholder.com/400x500"
+           alt="Smaller"
+           class="w-full h-auto object-cover rounded-lg">
+    </div>
+  </div>
+
+</body>
+</html>
+<div class="flex w-full gap-6">
+
+  <!-- Bigger Image -->
+  <div class="w-4/5" style=" width: 4/5;   border: 3px solid red;">
+    <img
+      src="./img/yue-wu-xQRBUQCFjWQ-unsplash.jpg"
+      class="w-4/5 h-[500px];object-cover rounded-2xl"style="width:4/5;"
+    >
+  </div>
+
+  <!-- Smaller Image -->
+  <div class="w-1/5" style="border: 3px solid black; width:1/5;">
+    <img
+      src="./img/yue-wu-xQRBUQCFjWQ-unsplash.jpg"
+      class="w-1/5 h-[500px];object-cover;rounded-2xl" style="width:1/5;"
+    >
+  </div>
+
+</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex Images with Tailwind</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-6">
+
+  <div class="flex w-full gap-4">
+    <!-- Bigger image -->
+    <img 
+      src="https://via.placeholder.com/800x500" 
+      alt="Bigger" 
+      class="flex-[2] w-full h-auto object-cover rounded-lg"
+    >
+
+    <!-- Smaller image -->
+    <img 
+      src="https://via.placeholder.com/400x500" 
+      alt="Smaller" 
+      class="flex-[1] w-full h-auto object-cover rounded-lg"
+    >
+  </div>
+
+</body>
+</html>
+
+
+<div class="flex w-full gap-4">
+    <!-- Bigger Image -->
+    <div class="flex-2">
+      <img src="./img/zoshua-colah-o2MGTDXxzww-unsplash.jpg"
+           alt="Bigger"
+           class="w-full h-auto object-cover rounded-lg">
+    </div>
+
+    <!-- Smaller Image -->
+    <div class="flex-1">
+      <img src="./img/abhijeet-gaikwad-SE4IuXbK-og-unsplash.jpg"
+           alt="Smaller"
+           class="w-full h-auto object-cover rounded-lg">
+    </div>
+  </div>
+
+
+
+
+  <div class="h-screen bg-cover bg-center" style="background-image: url(./img/yue-wu-xQRBUQCFjWQ-unsplash.jpg);
+height:530px;  overflow: hidden;">
+</div>
+<div class="h-screen bg-cover bg-center flex flex-wrap justify-center items-center text-white" style="background-color: black;
+height:160px;  overflow: hidden;justify-content: center; gap:15px; margin-bottom:10px;">
+<h1 class=""style="font-size:large;">stay in the loop
+   subscribe to mill updates</h1>
+  <div class="flex items-center  p-6 bg-white rounded-2xl   max-w-xl"style=";
+  height:5px;">
+
+  <!-- Email Input -->
+  <input
+    type="email"
+    placeholder="Enter your email"
+    class=" text-black"
+  >
+
+  <!-- Submit Button -->
+  <button
+    class="bg-black ml-auto
+    text-white px-6 py-1 rounded-xl hover:bg-gray-800 transition cursor-pointer">
+    Submit
+  </button>
+
+</div>
+
+</div>
+<!-------footer-->
+<footer class="bg-white text-black py-12 px-8">
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+
+    <!-- Column 1 -->
+    <div>
+      <h2 class="text-2xl font-light mb-4">
+        Discover
+      </h2>
+
+   <ul class="space-y-3 text-gray-400">
+        <li><a href="#" class="hover:text-black">mill food recycler</a></li>
+        <li><a href="#" class="hover:text-black">Newsroom</a></li>
+        <li><a href="#" class="hover:text-black">Blog</a></li>
+        <li><a href="#" class="hover:text-black">Refer a friend</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 2 -->
+    <div>
+      <h2 class="text-xl font-light mb-4">
+        About
+      </h2>
+
+      <ul class="space-y-3 text-gray-400">
+        <li><a href="#" class="hover:text-black">Careers</a></li>
+        <li><a href="#" class="hover:text-black">Impact</a></li>
+        <li><a href="#" class="hover:text-black">Legal</a></li>
+        
+      </ul>
+    </div>
+
+    <!-- Column 3 -->
+    <div>
+      <h2 class="text-xl font-light mb-4">
+        Partnership
+      </h2>
+
+      <ul class="space-y-3 text-gray-400">
+        <li>Mill for commercial</li>
+        <li>R.city</li>
+        <li>Municipal</li>
+        <li>Partner with us</li>
+        <li>Afilliate and trade program</li>
+      </ul>
+    </div>
+
+    <!-- Column 4 -->
+    <div>
+      <h2 class="text-xl font-light mb-4">
+        Support
+      </h2>
+
+      <ul class="space-y-3 text-gray-400">
+        <li>Help-center</li>
+        <li>Sign in</li>
+        
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- Bottom Footer -->
+  <div class="border-t  border-gray-700 mt-10 pt-6 text-center  text-gray-500"style="">
+
+   <p>© 2026 mill industries inc.All rights reserved</p> 
+    <p>Ip&other Notices</p>
+    <p>privacy</p>
+    <p>Terms</p>
+    <p>cookie policy</p>
+    <p>sitemap</p>
+    <div style="margin-left: auto;"> 
+      <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-linkedin"></i>
+  <i class="fa-brands fa-tiktok"></i></div>
+  </div>
+
+</footer>
+   <div class="flex flex-wrap  p-6 justify-center" style="overflow: hidden;
+   border:3px solid red; gap: 6px; height: 530px;">
+
+  <!-- Card 1 -->
+  <div class="bg-white rounded   "style= "width:300px;height:570px;">
+
+    <h2 class=" text-white font-bold rounded" style="text-align: center;background-color: black;
+    margin-bottom: 70px; font-size: x-small;">
+    fast company winner<br>most inovative<br>company
+    </h2>
+<div class="rounded flex flex-col justify-center items-center" 
+ style="justify-content: center;  margin-top:60px; background-color: orange;">
+  <img src="./img/Young Woman Thinking, Woman, Young Woman, Thinking PNG Transparent Image and Clipart for Free Download.jfif"
+style="height: 100px; width: 200px; margin-top: 5px;" >
+
+<p class="text-gray-600"style="text-align:center; font-size:x-small; margin-bottom:10px;">
+      I think it's one of those rare<br>inventions that makes my life better<br>- and stands a chance<br>of making the word
+       a little better too
+    </p>
+</div>
+    
+  </div>
+
+  <!-- Card 2 -->
+  <div class="bg-white rounded  "style=" width:300px;height:570px;">
+
+    <h2 class=""style="text-align:center;font-size:xx-small;">
+      "This is not an overstatement...mill is<br> one of the best products i have ever<br>purchased for our family".
+  </div>
+
+  <!-- Card 3 -->
+  <div class=" rounded  "style= "width:300px;height:360px; background-color:pink;">
+
+    <div style="justify-content:center;display: flex; margin-bottom: 10px;">
+      <img src="./img/Positive Cook Man Holding Kitchen Kn.jfif"class="rounded" 
+      style=" width: 280px;justify-content: center; margin-top: 4px;">
+      
+  </div>
+  <p class="text-gray-600 " style="margin-top:-8px; margin-bottom: 11px;font-size: x-small;">
+    "<br>mill has integrated into my life<br>seamlessly.we've already composted<br>at home.but we struggled to keep
+      our kitchen from smelling like a compost bin<br>.mill solves that.it's odorless and stress free.
+    </p>
+  <p style="font:bolder;">Richard Lee</p>
+  <p class="text-gray-600 "style="font:xx-small">Executive chef</p>
+  </div>
+
+  <!-- Card 4 -->
+  <div class="bg-white rounded  "style=" width:300px;height:500px;">
+    <div style="margin-bottom: 70px; margin-right: 3px;">
+      <img class="rounded"
+      src="./img/💡🔑 Erfolg beginnt im Kopf – und zeigt sich im Auftreten__Die meisten denken, Erfolg beginnt mit einem perfekten Lebenslauf__Aber die Wahrheit__Er beginnt mit Deinem Mindset – und zeigt sich in Dein._Und dabei____"
+      >
+  </div>
+  <div  class="rounded" style="background-color: grey; margin-right: 3px;"><h2 class=" font-bold mb-4" style="font-size: xx-small;">
+     "this product is really magical,<br>it has reduced our trash by more than 50%<br>
+      now several weeks go by without us taking outany trash."
+    </h2>
+
+    <p class="text-gray-600 mb-6"style="font-size:xx-small">
+      fernando
+    </p></div>
+
+</div>
+</div>
