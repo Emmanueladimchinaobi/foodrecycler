@@ -7,7 +7,7 @@ btn.addEventListener("click", () => {
 });
 const swiper = new Swiper('.swiper', {
   slidesPerView: 3,
-  spaceBetween: 10,
+  spaceBetween: 2,
   loop:true,
   
   autoplay:{
@@ -31,7 +31,7 @@ const swiper1 = new Swiper('.mySwiper1', {
 });
 const swiper2 = new Swiper('.mySwiper2', {
   slidesPerView: 2,
-  spaceBetween:5,
+  spaceBetween:2,
   
   loop:true,
   
