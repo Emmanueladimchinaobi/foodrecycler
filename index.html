@@ -10,38 +10,36 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <!-------linking swiperjs css-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
-  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="./index.css" />
   <title>Document</title>
 </head>
 
 <body>
   <!------hero container-->
-  <div class="h-screen bg-cover relative bg-center "
-    style="background-image: url(./img/dan-meyers-IQVFVH0ajag-unsplash.jpg);margin-bottom: 15px;">
+  <div class="h-screen bg-[url('/img/dan-meyers-IQVFVH0ajag-unsplash.jpg')]  bg-cover relative bg-center mb-5 ">
     <div class="max-w-7xl mx-auto px-6 relative">
-      <div class="flex justify-between items-center ">
+      <div class="flex justify-between items-center">
         <!-- Logo -->
-        <div class="text-xl font-bold text-gray-800" style="margin-top:25px">mill</div>
+        <div class="text-xl font-bold text-gray-800 mt-10">
+          mill
+        </div>
 
         <!-- Desktop Menu -->
-        <div class="hidden md:flex space-x-8 items-center justify-center" style="justify-content: center;
-           width: 1000px;margin-top:25px">
+        <div class="hidden md:flex space-x-8 items-center justify-center w-1000 mt-10 "
+          >
           <a href="#" class="text-gray-600 hover:text-black">food recycler</a>
           <a href="#" class="text-gray-600 hover:text-black">food grounds</a>
           <a href="#" class="text-gray-600 hover:text-black">for commercial</a>
-
         </div>
-        <div style="display:flex; margin-left: auto;margin-right:8px; margin-top:25px;gap:10px;">
-          <button class="text-center hidden md:block " style="text-align:center;">
+        <div class=" flex ml-auto mr-8  space-x-4 mt-10">
+          <button class="text-center hidden md:block" >
             <a href="" class="bg-green-500 px-2 py-1 rounded-2xl text-white hover:text-black">shop</a>
           </button>
-          <a href="" class="text-gray-600 hover:text-black"><i class="fa-solid fa-cart-shopping"></i>cart</a>
-
+          <a href="" class="text-gray-600 hover:text-black"><i class="fa-solid fa-cart-shopping text-xs">cart</i></a>
         </div>
 
-
         <!-- Hamburger Button -->
-        <div style="margin-top:25px">
+        <div  class="mt-10 ">
           <button id="menu-btn" class="flex flex-col space-y-1 hover:white">
             <span class="w-6 h-0.5 bg-white"></span>
             <span class="w-6 h-0.5 bg-white"></span>
@@ -55,374 +53,410 @@
       <a href="#" class="block py-2 text-gray-600">food recycler</a>
       <a href="#" class="block py-2 text-gray-600">food grounds</a>
       <a href="#" class="block py-2 text-gray-600">for comercial</a>
-      <button class="text-center  block md:hidden " style="margin-top: 6px; ">
-        <a href="" class="bg-green-500 px-2 py-1 rounded-2xl  text-white hover:text-black">shop</a>
+      <button class="text-center block md:hidden mt-6">
+        <a href="" class="bg-green-500 px-2 py-1 rounded-2xl text-white hover:text-black">shop</a>
       </button>
-
-
     </div>
 
     <!-----hero content-->
 
-    <div class="h-full absolute inset-0 flex flex-col justify-center items-center text-center"
-      style="margin-top: 300px">
-      <h1 class="text-black text-3xl font-bold" style="margin-bottom: 200px">
+    <div class="h-full absolute inset-0 flex flex-col justify-center items-center text-center mt-70"
+      >
+      <h1 class="text-gray-300 text-3xl font-bold mb-40">
         TABLE TO FARM
       </h1>
-      <p class="text-black text-2xl text-center" style="margin-bottom: 20px">
+      <p class="text-gray-300 text-2xl text-center mb-4">
         we are what we eat meet effortles <br />
         mill food recycler, the best of it's kind
       </p>
       <div class="flex-7 gap-4">
         <button>
-          <a href="" class="bg-green-500  text-center text-white rounded-2xl px-3 py-1 cursor-pointer hover:text-black">
-            shop
-            mill
+          <a href="" class="bg-green-500 text-center text-white rounded-2xl px-10 py-2 cursor-pointer hover:text-black">
+            shop mill
           </a>
         </button>
         <button>
           <a href=""
-            class="bg-transparent border border-b-white text-white text-center rounded-2xl px-2 py-1 cursor-pointer hover:text-black">learn
+            class="bg-transparent border border-b-white text-white text-center rounded-2xl px-10 py-2 cursor-pointer hover:text-black">learn
             more</a>
         </button>
       </div>
     </div>
   </div>
   <!------brands head-->
-  <div class="text-2xl flex justify-center items-center "
-    style="justify-content: center;font-size: xx-small;margin-bottom: 20px;">
+  <div class=" flex justify-center items-center mb-5 text-xs">
     <h1>AS SEEN IN</h1>
   </div>
   <!-------brands-->
-  <div class="flex justify-center items-center "
-    style="justify-content:center; gap:35px; margin-bottom:70px;overflow: hidden;">
-    <p class="text-9xl font-bold" style="font-family: 'Times New Roman', Times, serif;font-size: large;">FOOD AND
-      WINE</p>
-    <p class="text-9xl font-bold" style="font-family: Impact, Haettenschweiler, 
-    'Arial Narrow Bold', sans-serif;font-size: large;">AD</p>
-    <p class="text-9xl font-bold" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 
-      'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;font-size: large;">TIME</p>
-    <p class="text-9xl font-bold" style="font-family: Impact, Haettenschweiler,
-     'Arial Narrow Bold', sans-serif;font-size: large;">SLATE</p>
-    <p class="text-9xl font-bold" style="font-family: 'Gill Sans', 
-    'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: large;">THE WALL</p>
-    <p class="text-9xl font-bold" style="font-family: 'Gill Sans', 
-    'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: large;"> STREET JOURNAL</p>
-    <p class="text-9xl font-bold"
-      style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: large;">FOOD52</p>
-    <p class="text-9xl font-bold"
-      style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;font-size: large;">FASTCOMPANY</p>
+  <div class="flex justify-center items-center space-x-8 overflow-hidden mb-6">
+    <p class="text-9xl font-bold" style="
+          font-family: &quot;Times New Roman&quot;, Times, serif;
+          font-size: large;
+        ">
+      FOOD AND WINE
+    </p>
+    <p class="text-9xl font-bold" style="
+          font-family:
+            Impact, Haettenschweiler, &quot;Arial Narrow Bold&quot;, sans-serif;
+          font-size: large;
+        ">
+      AD
+    </p>
+    <p class="text-9xl font-bold " style="
+          font-family:
+            &quot;Lucida Sans&quot;, &quot;Lucida Sans Regular&quot;,
+            &quot;Lucida Grande&quot;, &quot;Lucida Sans Unicode&quot;, Geneva,
+            Verdana, sans-serif;
+          font-size: large;
+          
+        ">
+      TIME
+    </p>
+    <p class="text-9xl font-bold ml-16" style="
+          font-family:
+            Impact, Haettenschweiler, &quot;Arial Narrow Bold&quot;, sans-serif;
+          font-size: large;
+        
+        ">
+      SLATE
+    </p>
+    <p class="text-9xl font-bold " style="
+          font-family:
+            &quot;Gill Sans&quot;, &quot;Gill Sans MT&quot;, Calibri,
+            &quot;Trebuchet MS&quot;, sans-serif;
+          font-size: large;
+        ">
+      THEWALL
+    </p>
+    <p class="text-9xl font-bold ml-10 mr-16 " style="
+          font-family:
+            &quot;Gill Sans&quot;, &quot;Gill Sans MT&quot;, Calibri,
+            &quot;Trebuchet MS&quot;, sans-serif;
+          font-size: large;
+          
+           
+        ">
+      STREET JOURNAL
+    </p>
+    <p class="text-9xl font-bold" style="
+          font-family:
+            &quot;Segoe UI&quot;, Tahoma, Geneva, Verdana, sans-serif;
+          font-size: large;
+          
+          
+        ">
+      FOOD52
+    </p>
+    <p class="text-9xl font-bold" style="
+          font-family:
+            &quot;Segoe UI&quot;, Tahoma, Geneva, Verdana, sans-serif;
+          font-size: large;
+        ">
+      FASTCOMPANY
+    </p>
   </div>
 
   <!------prevention-->
-  <div class="flex flex-col justify-center items-center "
-    style="justify-content: center;margin-bottom:15px;margin-top:-50px;">
-    <h1 class="text-black text-center text-9xl font-extrabold" style="font-size:larger;font-weight: bolder;">
-      Prevent food waste <br>the smart way</h1>
-    <p style="font-size: xx-small ;margin-bottom: 15px;text-align:center;">with intelligent tech and a beautiful
-      design,Mill makes
-      compost pails and garbage disposals obsolete.</p>
-
+  <div class="flex flex-col justify-center items-center mb-10">
+    <h1 class="text-black text-center text-xl font-extrabold">
+      Prevent food waste <br />the smart way
+    </h1>
+    <p class="text-xs text-center">
+      with intelligent tech and a beautiful design,Mill <br>makes compost pails
+      and garbage disposals obsolete.
+    </p>
   </div>
   <!--------HOW IT WORKS-->
   <!-- Swiper Container 2 -->
-  <div class="swiper mySwiper2 w-full h-full relative  " style="margin-top:20px;">
-    <div class="swiper-wrapper ">
-      <div class="swiper-slide  ">
-        <div class="bg-white shadow-xl rounded-2xl relative  w-full">
+  <div class="swiper mySwiper2 w-full h-full relative mb-10" >
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="bg-white shadow-xl rounded-2xl relative w-full">
           <div class="relative">
-            <img src="./img/download (2).jfif" class="rounded-2xl w-full  object-contain" style="height:500px;">
-            <div class="absolute bottom-5 left-2  ">
-              <h2 class=" font-bold text-white mr-16" style="font-size:small">
+            <img src="./img/download (2).jfif" class="rounded-2xl w-full object-contain" style="height: 500px" />
+            <div class="absolute bottom-5 left-2">
+              <h2 class="font-bold text-white mr-16" style="font-size: small">
                 Add food scraps
               </h2>
-              <p class="text-white  " style="font-size:xx-small;">From advocado pits to turkey bones,mill
-              <p>
-              <p class="text-white mr-18 " style="font-size:xx-small;">takes almost anything.</p>
+              <p class="text-white" style="font-size: xx-small">
+                From advocado pits to turkey bones,mill
+              </p>
+              <p></p>
+              <p class="text-white mr-18" style="font-size: xx-small">
+                takes almost anything.
+              </p>
             </div>
-
           </div>
-
-
-
-
-
         </div>
       </div>
-      <div class="swiper-slide  ">
-        <div class="bg-white shadow-xl rounded-2xl relative  w-full">
+      <div class="swiper-slide">
+        <div class="bg-white shadow-xl rounded-2xl relative w-full">
           <div class="relative">
-            <img src="./img/zoshua-colah-vyFzcI9jlm8-unsplash.jpg" class="rounded-2xl w-full    object-contain"
-              style="height:500px;">
-            <div class="absolute bottom-5 left-2  ">
-              <h2 class="text-sm font-bold text-white" style="font-size:small">
+            <img src="./img/zoshua-colah-vyFzcI9jlm8-unsplash.jpg" class="rounded-2xl w-full object-contain"
+              style="height: 500px" />
+            <div class="absolute bottom-5 left-2">
+              <h2 class="text-sm font-bold text-white" style="font-size: small">
                 Mill works overnight
               </h2>
-              <p class="text-white" style="font-size:xx-small;">you can't even press a button.mill
-              <p>
-              <p class="text-white mr-6" style="font-size:xx-small;">knows how much you add.</p>
+              <p class="text-white" style="font-size: xx-small">
+                you can't even press a button.mill
+              </p>
+              <p></p>
+              <p class="text-white mr-6" style="font-size: xx-small">
+                knows how much you add.
+              </p>
             </div>
           </div>
         </div>
       </div>
-      <div class="swiper-slide  ">
-        <div class="bg-white shadow-xl rounded-2xl relative  w-full">
+      <div class="swiper-slide">
+        <div class="bg-white shadow-xl rounded-2xl relative w-full">
           <div class="relative">
-            <img src="./img/download (2).jfif" class="rounded-2xl w-full  object-contain" style="height:500px;">
-            <div class="absolute bottom-5 left-2 ">
-              <h2 class="text-sm font-bold text-white mr-16" style="font-size:small;">
+            <img src="./img/download (2).jfif" class="rounded-2xl w-full object-contain" style="height: 500px" />
+            <div class="absolute bottom-5 left-2">
+              <h2 class="text-sm font-bold text-white mr-16" style="font-size: small">
                 Add food scraps
               </h2>
-              <p class="text-white" style="font-size:xx-small;">From advocado pits to turkey bones,mill
-              <p>
-              <p class="text-white mr-18" style="font-size:xx-small;">takes almost anything.</p>
+              <p class="text-white" style="font-size: xx-small">
+                From advocado pits to turkey bones,mill
+              </p>
+              <p></p>
+              <p class="text-white mr-18" style="font-size: xx-small">
+                takes almost anything.
+              </p>
             </div>
-
           </div>
-
-
-
-
-
         </div>
       </div>
-
-
     </div>
   </div>
   <!-------stats-->
-  <div class="flex flex-col items-center justify-center"
-    style="margin-bottom:45px; justify-content:center;margin-top:30px;">
-    <h1 class="text-green-600 text-5xl" style="font-family: 'Times New Roman', Times, serif; text-align: center;">
-      20,000,000 <br>pounds of</h1>
-    <h1 class="text-black text-5xl" style="font-family: 'Times New Roman', Times, serif; text-align: center;">food kept
-      <br>out of landfils
+  <div class="flex flex-col items-center justify-center mb-10">
+    <h1 class="text-green-600 text-5xl text-center" style="
+          font-family: &quot;Times New Roman&quot;, Times, serif;
+      
+        ">
+      20,000,000 <br />pounds of
+    </h1>
+    <h1 class="text-black text-5xl" style="
+          font-family: &quot;Times New Roman&quot;, Times, serif;
+          text-align: center;
+        ">
+      food kept <br />out of landfils
     </h1>
 
-    <h1 class="text-sm" style="text-align:center;">
-      And still counting.Join us today and prevent food waste<br>-a major driver of climate change.</h1>
+    <h1 class="text-sm text-center">
+      And still counting.Join us today and prevent food waste<br />-a major
+      driver of climate change.
+    </h1>
   </div>
   <!-----call to action-->
-  <div class="h-screen max-w-7xl mx-auto px-6 relative rounded-2xl bg-center
-         bg-cover flex flex-col justify-center items-center mb-5" style="background-image:url(./img/nadia-valko-0hAdietsUrE-unsplash.jpg); justify-content: center;
-      object-fit: cover;overflow: hidden; height: 400px;background-position: center;">
-    <div class="bg-white  rounded-2xl  " style="height:290px;">
-      <div class="flex " style="">
-        <h1 class="px-10" style="margin-top:25px;margin-right:10px;">MILL FOOD RECYCLER</h1>
-        <button style="margin-top:5px;margin-left:auto; margin-right:5px;">
-          <a href="" class="bg-green;text-center; rounded-xl" style="background-color: green;padding-left:15px;padding-right: 15px;padding-top: 4px; padding-bottom: 4px;
-
- ">ordernow</a></button>
+  <div
+    class=" bg-[url('/img/nadia-valko-0hAdietsUrE-unsplash.jpg')] h-100  max-w-7xl mx-auto px-6 relative rounded-2xl bg-center bg-cover flex flex-col justify-center items-center mb-5
+    overflow-hidden"
+    >
+    <div class="bg-white rounded-2xl h-70 " >
+      <div class="flex" >
+        <h1 class="px-10 mt-5 mr-5">
+          MILL FOOD RECYCLER
+        </h1>
+        <button class="mt-5 ml-auto mr-5  ">
+          <a href="" class="bg-green-500 px-8 py-3 text-center; rounded-xl">ordernow</a>
+        </button>
       </div>
-      <h1 class="px-15 font-light ">Buy,finance or rent</h1>
-      <h1 class="px-15 font-sm font-light absolute" style="font-size:xx-small">from $999</h1>
+      <div >  
+        <h1 class="px-10 font-light">Buy,finance or rent</h1>
+      <h1 class="px-10 text-xs font-light absolute" >
+        from $999
+      </h1></div>
+    
 
-
-      <div class="flex justify-center items-center border-t  border-gray-700 mt-10" style="justify-content:center;">
-
+      <div class="flex justify-center items-center border-t border-gray-700 mt-10" >
         <!-- Column 1 -->
-        <div style="margin-top: 60px; text-align: center;">
+        <div  class="mt-5 text-center">
           <i class="fa-solid fa-truck-fast"></i>
-          <h2 class=" font-bold " style="font-size:xx-small;">
-            FREE SHIPPING
-          </h2>
-          <h1 class="px-5 font-sm font-light" style="font-size:xx-small">Delivered to your doorstep</h1>
-
+          <h2 class="font-bold" style="font-size: xx-small">FREE SHIPPING</h2>
+          <h1 class="px-5 font-sm font-light" style="font-size: xx-small">
+            Delivered to your doorstep
+          </h1>
         </div>
 
         <!-- Column 2 -->
-        <div style="margin-top: 60px;text-align: center;">
+        <div class="mt-5 text-center">
           <i class="fa-solid fa-money-bill-1-wave"></i>
-          <h2 class=" font-bold " style="text-transform: uppercase;font: bold;font-size:xx-small;">
+          <h2 class="font-bold" style="text-transform: uppercase; font: bold; font-size: xx-small">
             Money back guarantee
           </h2>
-          <h1 class="px-5 font-sm font-light" style="font-size:xx-small">Try mill in your home for 90 days and return
-            for free.</h1>
-
+          <h1 class="px-5 font-sm font-light" style="font-size: xx-small">
+            Try mill in your home for 90 days and return for free.
+          </h1>
         </div>
 
         <!-- Column 3 -->
-        <div style="margin-top: 60px;text-align: center;">
+        <div class="mt-5 text-center">
           <i class="fa-solid fa-timeline"></i>
-          <h2 class="font-bold  " style="text-transform: uppercase;font: bold;font-size:xx-small;">
+          <h2 class="font-bold" style="text-transform: uppercase; font: bold; font-size: xx-small">
             3 years warranty
           </h2>
 
-          <h1 class="px-5 font-sm font-light" style="font-size:xx-small">your peace of mind with free replacement</h1>
+          <h1 class="px-5 font-sm font-light" style="font-size: xx-small">
+            your peace of mind with free replacement
+          </h1>
         </div>
-
       </div>
-
-
     </div>
-
   </div>
   <!-----versatile-->
-  <div class="flex justify-center items-center "
-    style="justify-content:center; gap:30px;padding-left:5px;padding-right:5px; margin-bottom:75px;">
-    <h1 class="text-4xl font-extrabold">Create a versatile<br> resource</h1>
-    <p style="font-size: xx-small;margin-right: 5px;">mill transforms your food scraps into nutrient rich grounds that
-      can<br> nourish your garden,your backyard chickens or
-      small,independent farms </p>
+  <div class="flex justify-center items-center space-x-8 mb-20 ml-6">
+    <h1 class="text-4xl font-extrabold">
+      Create a versatile<br />
+      resource
+    </h1>
+    <p   class="text-xs mr-4">
+      mill transforms your food scraps into nutrient rich grounds that can<br />
+      nourish your garden,your backyard chickens or small,independent farms
+    </p>
   </div>
   <!------swiper 1-->
-  <div class="grid grid-cols-1 md:grid-cols-3  " style="margin-bottom:100px;gap:10px;">
-
+  <div class="grid grid-cols-1 md:grid-cols-3 mb-20 space-y-2 ">
     <!-- Card 1 -->
-    <div class="bg-white  rounded-2xl p-4" style="height:400px;overflow: hidden;margin-top:-75px;">
-      <div class="relative" style="position:relative">
+    <div class="bg-white rounded-2xl p-4 overflow-hidden -mt-15" 
+    style="height: 400px;">
+      <div class="relative">
         <img src="./img/erda-estremera-0ZxdAGG4aWU-unsplash.jpg" class="rounded-2xl"
-          style="height: 330px;width: 400px;">
-        <div class="absolute bottom-0  text-white flex space-x-8">
-          <h1 class="text-2xl ml-6">Mill for your<br> garden.</h1>
+          style="height: 330px; width: 400px" />
+        <div class="absolute bottom-0 text-white flex space-x-8">
+          <h1 class="text-2xl ml-6">
+            Mill for your<br />
+            garden.
+          </h1>
 
-          <div class="ml-28 mt-10"><i class="fa-solid fa-arrow-right-long"></i></div>
+          <div class="ml-28 mt-10">
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
         </div>
-
       </div>
-
-
-
-
-
     </div>
 
     <!-- Card 2 -->
-    <div class="bg-white  rounded-2xl p-4" style="height:400px;overflow: hidden;margin-top:-75px;">
-
-
-      <div class="relative" style="position:relative">
+    <div class="bg-white rounded-2xl p-4 overflow-hidden -mt-15" style="height: 400px;">
+      <div class="relative">
         <img src="./img/sushanta-rokka-_q5RLrQ_KNQ-unsplash.jpg" class="rounded-2xl"
-          style="height: 330px;width: 400px;">
-        <div class="absolute bottom-0  text-white flex space-x-8">
+          style="height: 330px; width: 400px" />
+        <div class="absolute bottom-0 text-white flex space-x-8">
           <h1 class="text-2xl ml-6">Mill for your community.</h1>
 
-          <div class="ml-8 mr-6 mt-10"><i class="fa-solid fa-arrow-right-long"></i></div>
+          <div class="ml-8 mr-6 mt-10">
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
         </div>
-
       </div>
-
-
-
-
     </div>
     <!-- Card 3 -->
-    <div class="bg-white  rounded-2xl p-4" style="height: 400px;overflow: hidden;margin-top:-75px;">
-
-
-      <div class="relative" style="position:relative">
-        <img src="./img/jason-holland-G61iAuzI9NQ-unsplash.jpg" class="rounded-2xl" style="height: 330px;width: 400px;">
-        <div class="absolute bottom-0  text-white flex space-x-8">
+    <div class="bg-white rounded-2xl p-4 overflow-hidden -mt-15" style="height: 400px;">
+      <div class="relative">
+        <img src="./img/jason-holland-G61iAuzI9NQ-unsplash.jpg" class="rounded-2xl"
+          style="height: 330px; width: 400px" />
+        <div class="absolute bottom-0 text-white flex space-x-8">
           <h1 class="text-2xl ml-6">Mill for your chickens.</h1>
 
-          <div class="ml-20 mr-4  mt-10"><i class="fa-solid fa-arrow-right-long"></i></div>
+          <div class="ml-20 mr-4 mt-10">
+            <i class="fa-solid fa-arrow-right-long"></i>
+          </div>
         </div>
-
       </div>
-
     </div>
-
   </div>
   <!-----local impact-->
-  <div class="flex flex-col justify-center items-center"style="justify-content:center;margin-top:-105px; margin-bottom-10px;">
-    <h1 class="text-black-600 text-xl" style="font-family: 'Times New Roman', Times, serif;">Local impact everywhere
+  <div class="flex flex-col justify-center items-center -mt-30 mb-15">
+    <h1 class="text-black-600 text-xl" style="font-family: &quot;Times New Roman&quot;, Times, serif">
+      Local impact everywhere
     </h1>
 
-
-    <h1 class="text-sm" style="text:center;font-size:xx-small">
-      Across the country,mill helps local farms,restaurants,and communities to<br>waste less and grow more.Here are some
-      of our partnership
-      in Los Angeles</h1>
+    <h1 class="text-sm" style="text: center; font-size: xx-small">
+      Across the country,mill helps local farms,restaurants,and communities
+      to<br />waste less and grow more.Here are some of our partnership in Los
+      Angeles
+    </h1>
   </div>
-  
+
   <!-----cards-->
-  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 p-6" style="margin-top:50px">
-
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-6 p-6 space-y-8">
     <!-- Card 1 -->
-    <div class="bg-white  rounded-2xl p-6" style="height: 500px;overflow: hidden;margin-top:-75px;">
-      <img src="./img/download (2).jfif" style="height: 330px;width: 400px;">
+    <div class="bg-white rounded-2xl p-6 overflow-hidden -mt-18"
+    style="height: 470px;">
+      <img src="./img/download (2).jfif" style="height: 330px; width: 400px" />
 
-      <h2 class="text-2xl font-bold mb-4">
-        Camila Marcus
-      </h2>
+      <h2 class="text-2xl font-bold mb-2">Camila Marcus</h2>
 
-      <p class="text-light " style="font-size:xx-small">
-        she has spent a career building connections<br>between restaurants,farms and<br>communities.Now mills joins her
-        mission.
+      <p class="text-light text-xs">
+        she has spent a career building connections<br />between
+        restaurants,farms and<br />communities.Now mills joins her mission.
       </p>
-
-
-
     </div>
 
     <!-- Card 2 -->
-    <div class="bg-white  rounded-2xl p-6" style="height: 500px;overflow: hidden;margin-top:-75px;">
-      <img src="./img/download (3).jfif" style="height: 330px;width: 400px;">
+    <div class="bg-white rounded-2xl p-6 overflow-hidden -mt-18" style="height: 470px;">
+      <img src="./img/download (3).jfif" style="height: 330px; width: 400px" />
 
-      <h2 class="text-2xl font-bold mb-4">
-        Camila Marcus
-      </h2>
+      <h2 class="text-2xl font-bold mb-2">Camila Marcus</h2>
 
-      <p class="text-light " style="font-size:xx-small">
-        she has spent a career building connections<br>between restaurants,farms and<br>communities.Now mills joins her
-        mission.
+      <p class="text-light text-xs">
+        she has spent a career building connections<br />between
+        restaurants,farms and<br />communities.Now mills joins her mission.
       </p>
-
-
-
     </div>
     <!-- Card 3 -->
-    <div class="bg-white  rounded-2xl p-6" style="height: 500px;overflow: hidden;margin-top:-75px;">
-      <img src="./img/download (4).jfif" style="height: 330px;width: 400px;">
+    <div class="bg-white rounded-2xl p-6 overflow-hidden -mt-18" style="height: 470px; ">
+      <img src="./img/download (4).jfif" style="height: 330px; width: 400px" />
 
-      <h2 class="text-2xl font-bold mb-4">
-        LA Dinner series
-      </h2>
+      <h2 class="text-2xl font-bold mb-2">LA Dinner series</h2>
 
-      <p class="text-light " style="font-size:xx-small">
-        The greatest chefs of LA and NYC join<br>
-        forces to create unforgettable meals for<br> the make food not waste dinner series</p>
-
+      <p class="text-light text-xs">
+        The greatest chefs of LA and NYC join<br />
+        forces to create unforgettable meals for<br />
+        the make food not waste dinner series
+      </p>
     </div>
-
   </div>
   <!----what are they saying-->
-  <div class="flex flex-col items-center justify-center" style=" justify-content:center;margin-bottom:75px;">
-    <h1 class="text-black-600 text-4xl" style="font-family: 'Times New Roman', Times, serif; text-align:center;">
-      What are they saying about the mill</h1>
+  <div class="flex flex-col items-center justify-center mb-2">
+    <h1 class="text-black-600 text-4xl text-center" style="
+          font-family: &quot;Times New Roman&quot;, Times, serif;
+        
+        ">
+      What are they saying about the mill
+    </h1>
 
-
-    <h1 class="text-sm" style="text:center;font-size:xx-small">
-      Busy families,professional chefs,and tastemakers-everyone loves the wonderful feeling of <br>wasting nothing.</h1>
+    <h1 class="text-sm text-center">
+      Busy families,professional chefs,and tastemakers-everyone loves the
+      wonderful feeling of <br />wasting nothing.
+    </h1>
   </div>
   <!------card comments-->
-  <div class="flex flex-wrap gap-6 p-6 justify-center mb-10" style="margin-top:-60px;">
-
+  <div class="flex flex-wrap gap-6 p-6 justify-center mb-2 space-y-6">
     <!-- Card 1 -->
-    <div class="bg-white rounded-2xl  p-6 w-72">
-
-      <h2 class="text-2xl font-bold mb-4 bg-black text-white rounded">
-        fast company winner<br>most inovative<br>company
+    <div class="bg-white rounded-2xl p-6 w-82">
+      <h2 class="text-xl text-center font-bold mb-4 bg-black text-white rounded">
+        fast company winner<br />most inovative<br />company
       </h2>
 
-      <div class="text-gray-600 mb-6 flex flex-col justify-center items-center rounded "
-        style="background-color:orange;">
+      <div class="text-gray-600 mb-6 flex flex-col justify-center items-center rounded bg-orange-300"
+        >
         <img class="rounded"
           src="./img/Young Woman Thinking, Woman, Young Woman, Thinking PNG Transparent Image and Clipart for Free Download.jfif"
-          style="height: 100px; width: 200px; margin-top: 5px;">
+          style="height: 100px; width: 200px; margin-top: 5px" />
 
-        <p>I think it's one of those rare<br>inventions that makes my life better<br>- and stands a chance<br>of making
-          the word
-          a little better too</p>
-
+        <p>
+          I think it's one of those rare<br />inventions that makes my life
+          better<br />- and stands a chance<br />of making the word a little
+          better too
+        </p>
       </div>
-
-
-
     </div>
 
     <!-- Card 2 -->
-    <div class="bg-white rounded-2xl  p-6 w-72">
+    <div class="bg-white rounded-2xl p-6 w-72">
       <p class="text-gray-600 mb-6">
         <i class="fa-solid fa-star"></i>
         <i class="fa-solid fa-star"></i>
@@ -432,41 +466,37 @@
       </p>
 
       <h2 class="text-2xl font-bold mb-4">
-        "This is not an overstatement...mill is<br> one of the best products i have ever<br>purchased for our family".
+        "This is not an overstatement...mill is<br />
+        one of the best products i have ever<br />purchased for our family".
       </h2>
 
-
-
-      <button class=" text-black px-15 py-3 rounded-xl" style="background-color: grey;">
+      <button class="text-black px-15 py-3 rounded-xl" style="background-color: grey">
         <i class="fa-solid fa-user-check"></i>
-        scott<br>verified buyer
+        scott<br />verified buyer
       </button>
-
     </div>
 
     <!-- Card 3 -->
-    <div class=" rounded-2xl shadow-lg p-6 w-72" style="background-color:pink;">
-
-      <h2 class="text-2xl font-bold mb-4">
+    <div class="rounded-2xl shadow-lg p-6 w-72 bg-pink-300">
+      <h2 class=" mb-4">
         <img src="./img/Positive Cook Man Holding Kitchen Kn.jfif" class="rounded"
-          style=" width: 280px;justify-content: center; margin-top: 4px;">
+          />
       </h2>
 
       <p class="text-gray-600 mb-6">
-        "<br>mill has integrated into my life<br>seamlessly.we've already composted<br>at home.but we struggled to keep
-        our kitchen from smelling like a compost bin<br>.mill solves that.it's odorless and stress free.
+        "<br />mill has integrated into my life<br />seamlessly.we've already
+        composted<br />at home.but we struggled to keep our kitchen from
+        smelling like a compost bin<br />.mill solves that.it's odorless and
+        stress free.
       </p>
-
 
       <p>Richard Lee</p>
       <p>Executive chef</p>
-
-
     </div>
 
     <!-- Card 4 -->
-    <div class="bg-white rounded-2xl  p-6 w-72">
-      <p class=" mb-4">
+    <div class="bg-white rounded-2xl p-6 w-80 ">
+      <p class="mb-4">
         <i class="fa-solid fa-star"></i>
         <i class="fa-solid fa-star"></i>
         <i class="fa-solid fa-star"></i>
@@ -474,62 +504,45 @@
         <i class="fa-solid fa-star"></i>
       </p>
 
-      <h2 class="text-2xl font-bold mb-4">
+      <h2 class=" mb-4 ">
         <img class="rounded"
-          src="./img/💡🔑 Erfolg beginnt im Kopf – und zeigt sich im Auftreten__Die meisten denken, Erfolg beginnt mit einem perfekten Lebenslauf__Aber die Wahrheit__Er beginnt mit Deinem Mindset – und zeigt sich in Dein._Und dabei____">
+          src="./img/💡🔑 Erfolg beginnt im Kopf – und zeigt sich im Auftreten__Die meisten denken, Erfolg beginnt mit einem perfekten Lebenslauf__Aber die Wahrheit__Er beginnt mit Deinem Mindset – und zeigt sich in Dein._Und dabei____" />
       </h2>
 
-      <p class="text-gray-white  rounded" style="background-color: grey;">
-        "this product is really magical,<br>it has reduced our trash by more than 50%<br>
-        now several weeks go by without us taking outany trash."<br>
+      <p class="text-gray-white text-center rounded bg-gray-500 ">
+        "this product is really magical,it has reduced our trash by more
+        than 50%<br />
+        now several weeks go by without us taking out any trash."<br>
 
         <i class="fa-solid fa-user-check"></i>
-        scott<br>verified buyer
-
-
-      </p>
-
-
-
-
-
+        scott<br />verified buyer</p>
+      
     </div>
-
   </div>
   <!-------call to action-->
 
-  <div class="h-screen bg-cover bg-center" style="background-image: url(./img/yue-wu-xQRBUQCFjWQ-unsplash.jpg);
-height:530px;  overflow: hidden;">
-  </div>
-  <div class="h-screen bg-cover bg-center flex flex-wrap justify-center items-center text-white" style="background-color: black;
-height:160px;  overflow: hidden;justify-content: center; gap:15px; margin-bottom:10px;">
-    <h1 class="" style="font-size:large;">stay in the loop
-      subscribe to mill updates</h1>
-    <div class="flex items-center  p-6 bg-white rounded-2xl   max-w-xl" style="
-  height:5px;">
-
+  <div class=" bg-[url('/img/yue-wu-xQRBUQCFjWQ-unsplash.jpg')] h-120 bg-cover bg-center  overflow-hidden" ></div>
+  <div class="h-50 gap-15 mb-10 bg-cover bg-black bg-center flex flex-wrap justify-center items-center text-white overflow-hidden
+  " >
+    <h1 class="" style="font-size: large">
+      stay in the loop subscribe to mill updates
+    </h1>
+    <div class="flex items-center p-6 bg-white rounded-2xl max-w-xl" style="height: 5px">
       <!-- Email Input -->
-      <input type="email" placeholder="Enter your email" class=" text-black">
+      <input type="email" placeholder="Enter your email" class="text-black" />
 
       <!-- Submit Button -->
-      <button class="bg-black ml-auto
-    text-white px-6 py-1 rounded-xl hover:bg-gray-800 transition cursor-pointer">
+      <button class="bg-black ml-auto text-white px-6 py-1 rounded-xl hover:bg-gray-800 transition cursor-pointer">
         Submit
       </button>
-
     </div>
-
   </div>
   <!-------footer-->
   <footer class="bg-white text-black py-12 px-8">
-
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
-
       <!-- Column 1 -->
       <div>
-        <h2 class="text-2xl font-light mb-4">
-          Discover
-        </h2>
+        <h2 class="text-2xl font-light mb-4">Discover</h2>
 
         <ul class="space-y-3 text-gray-400">
           <li><a href="#" class="hover:text-black">mill food recycler</a></li>
@@ -541,23 +554,18 @@ height:160px;  overflow: hidden;justify-content: center; gap:15px; margin-bottom
 
       <!-- Column 2 -->
       <div>
-        <h2 class="text-xl font-light mb-4">
-          About
-        </h2>
+        <h2 class="text-xl font-light mb-4">About</h2>
 
         <ul class="space-y-3 text-gray-400">
           <li><a href="#" class="hover:text-black">Careers</a></li>
           <li><a href="#" class="hover:text-black">Impact</a></li>
           <li><a href="#" class="hover:text-black">Legal</a></li>
-
         </ul>
       </div>
 
       <!-- Column 3 -->
       <div>
-        <h2 class="text-xl font-light mb-4">
-          Partnership
-        </h2>
+        <h2 class="text-xl font-light mb-4">Partnership</h2>
 
         <ul class="space-y-3 text-gray-400">
           <li>Mill for commercial</li>
@@ -570,39 +578,30 @@ height:160px;  overflow: hidden;justify-content: center; gap:15px; margin-bottom
 
       <!-- Column 4 -->
       <div>
-        <h2 class="text-xl font-light mb-4">
-          Support
-        </h2>
+        <h2 class="text-xl font-light mb-4">Support</h2>
 
         <ul class="space-y-3 text-gray-400">
           <li><a href="" class="hover:text-black">Help-center</a></li>
           <li><a href="" class="hover:text-black">sign in</a></li>
-
         </ul>
       </div>
-
     </div>
 
     <!-- Bottom Footer -->
-    <div class="border-t  border-gray-700 mt-10 pt-6 text-center  text-gray-500" style="">
-
+    <div class="border-t border-gray-700 mt-10 pt-6 text-center text-gray-500" >
       <p>© 2026 mill industries inc.All rights reserved</p>
       <p>Ip&other Notices</p>
       <p>privacy</p>
       <p>Terms</p>
       <p>cookie policy</p>
       <p>sitemap</p>
-      <div style="margin-left: auto;">
+      <div style="margin-left: auto">
         <i class="fa-brands fa-instagram"></i>
         <i class="fa-brands fa-linkedin"></i>
         <i class="fa-brands fa-tiktok"></i>
       </div>
     </div>
-
   </footer>
-
-
-
 
   <!---------linking swiperjs script-->
   <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
